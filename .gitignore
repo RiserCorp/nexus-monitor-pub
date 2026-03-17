@@ -1,41 +1,9 @@
-# Prerequisites
-*.d
+# C/C++ build artifacts
+*.d *.slo *.lo *.o *.obj *.gch *.pch *.ilk *.pdb
+*.so *.dylib *.dll
+*.mod *.smod
+*.lai *.la *.a *.lib
+*.exe *.out *.app *.dwo
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# MQL5 — keep compiled binaries (.ex5) tracked
+# *.ex5 is intentionally NOT ignored — it is the release artifact
